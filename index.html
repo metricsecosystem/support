@@ -11,34 +11,40 @@
             font-family: Helvetica, Arial, sans-serif;
         }
         body {
-            display: block;
-            text-align: center;
-            background: linear-gradient(#292929, #101010);
-            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: linear-gradient(#212121, #0c0c0c);
+            height: 100vh;
+            padding: 40px 10px;
         }
         .header {
             font-weight: bold;
         }
+        .sect {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
     </style>
 </head>
 <body>
-    <h1 class="header">MiKm Support</h1>
+    <section class="sect">
+        <h1 class="header">MiKm Support</h1>
+    </section>
 
-    <p>Welcome to MiKm support!</p> 
-    
-    <p>If you have any questions, feedback, or need assistance, you're in the right place.</p>
+    <section class="sect">
+        <p>Welcome to MiKm support!</p> 
+        <p>If you have any questions, feedback, or need assistance, you're in the right place.</p>
+        <p>Contact Us: Feel free to reach out to our support team using the contact information bellow.</p>
+        <p>Thank you for using MiKm! We're here to ensure you have the best experience.</p>
+    </section>
 
-    <p>Contact Us: Feel free to reach out to our support team using the contact information bellow.</p>
-
-    <p>Thank you for using MiKm! We're here to ensure you have the best experience.</p>
-
-    <h2>Contacts:</h2>
-
-    <p>iamskalexet@gmail.com</p>
-
-    <p>+37455115032</p>
-
-    <p>Aleksei Skvortsov</p>
+    <section class="sect">
+        <p>iamskalexet@gmail.com</p>
+        <p>+37455115032</p>
+        <p>Aleksei Skvortsov</p>
+    </section>
 
 </body>
 </html>
